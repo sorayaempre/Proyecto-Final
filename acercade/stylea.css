@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+.background1 {
+    background-image: url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navigation {
+    background: linear-gradient(90deg, #F99500, #008000);
+    border: 1px solid;
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.842);
+}
+
+.navigation .search {
+    position: relative;
+    margin: 10px 0px;
+}
+
+.navigation .search input {
+    /* padding: 10px 40px; */
+    border: 1px solid rgb(201, 201, 209);
+    font-size: 14px;
+}
+
+.navigation .search button {
+    border: 0px;
+    background-color: transparent;
+    color: rgb(126, 126, 126);
+    position: absolute;
+    top: 5px;
+    right: 0px;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+}
+
+.imgPacman {
+    width: 50px;
+    height: 50px;
+}
+
+.menu {
+    font-family: 'Ubuntu', sans-serif;
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.842);
+    margin-top: 10px;
+}
+
+.filters {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.filters button {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+}
+
+.filters img {
+    width: 100px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.carousel-inner {
+    max-width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.carousel-item img {
+    width: 50%;
+    object-fit: contain;
+}
+
+.container {
+    margin-left margin-top: 50%;
+    margin: 5% auto;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+.btn-login {
+
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 15px;
+    background-color: #F99500;
+}

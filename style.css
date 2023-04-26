@@ -2,6 +2,8 @@
 
 .background {
     background-image: url(img/fondo.jpg);
+    width: 600px;
+    height: 400px;
 }
 
 .navigation {
