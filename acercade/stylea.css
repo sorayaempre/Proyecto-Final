@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
-.background1 {
-    background-image: url(fondo.jpg);
+.container {
+    background-image:url(fondo.jpg);
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
+   
 }
 
 .navigation {

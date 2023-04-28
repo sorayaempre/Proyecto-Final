@@ -1,19 +1,20 @@
-function iniciarSesion() {
-    var nombreUsuario = document.getElementById("username").value;
-    var contrasena = document.getElementById("password").value;
-    var usuarios = [
-      { nombreUsuario: "usuario1", contrasena: "1234" },
-      { nombreUsuario: "usuario2", contrasena: "5678" },
-      { nombreUsuario: "usuario3", contrasena: "abcd" }
-    ];
-    for (var i = 0; i < usuarios.length; i++) {
-      if (nombreUsuario === usuarios[i].nombreUsuario && contrasena === usuarios[i].contrasena) {
-        alert("Inicio de sesión exitoso");
-        return;
-      }
-    }
+var loginForm = document.getElementById("login-form");
+
+loginForm.addEventListener("submit", function(event) {
+  event.preventDefault();
+
+  var username = document.getElementById("username").value;
+  var password = document.getElementById("password").value;
+
+  if (username === "usuario" && password === "contraseña") {
+    alert("Inicio de sesión exitoso");
+    // Aquí puedes redirigir a otra página o hacer algo más después de un inicio de sesión exitoso
+  } else {
     alert("Nombre de usuario o contraseña incorrectos");
   }
+});
+
+
   
 
   
