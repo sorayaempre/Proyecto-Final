@@ -1,22 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
-
-.container {
+ body{
     background-image:url(fondo.jpg);
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
-   
+    background-position: auto;
+    background-attachment: fixed;
+
 }
 
 .navigation {
     background: linear-gradient(90deg, #F99500, #008000);
     border: 1px solid;
     text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.842);
+    justify-content: center;
 }
 
 .navigation .search {
     position: relative;
     margin: 10px 0px;
+    text-align: center;
 }
 
 .navigation .search input {
@@ -48,6 +50,7 @@
     font-family: 'Ubuntu', sans-serif;
     text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.842);
     margin-top: 10px;
+    justify-content: center;
 }
 
 .filters {
@@ -64,21 +67,12 @@
     height: 20px;
     object-fit: contain;
 }
-
-.carousel-inner {
-    max-width: 50%;
-    margin: 0 auto;
-    margin-top: 50px;
-}
-
-.carousel-item img {
-    width: 50%;
-    object-fit: contain;
-}
+s
 
 .container {
     margin-left margin-top: 50%;
     margin: 5% auto;
+    
 }
 
 .material-symbols-outlined {

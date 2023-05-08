@@ -14,6 +14,28 @@ loginForm.addEventListener("submit", function(event) {
   }
 });
 
+// Crea un objeto con los datos del registro
+var registro = {
+  nombre: "Juan",
+  correo: "juan@example.com"
+  
+};
+
+// Convierte el objeto a una cadena JSON y lo almacena en localStorage
+localStorage.setItem("registro", JSON.stringify(registro));
+
+// Recupera la cadena JSON del registro de localStorage
+var registroGuardado = localStorage.getItem("registro");
+
+// Si hay un registro almacenado, conviértelo a objeto y llena los campos del formulario
+if (registroGuardado) {
+  var registro = JSON.parse(registroGuardado);
+  document.getElementById("nombre").value = registro.nombre;
+  document.getElementById("correo").value = registro.correo;
+  document.getElementById("contraseña").value = registro.contraseña;
+  document.getElementById("repiteContraseña").value = registro.repiteContraseña;
+}
+
 
 
 
